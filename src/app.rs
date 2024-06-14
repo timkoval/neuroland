@@ -77,7 +77,7 @@ fn Header() -> impl IntoView {
 #[component]
 fn Footer() -> impl IntoView {
     view! {
-        <footer class="pb-0 m-auto left-0 right-0">
+        <footer class="pb-0 m-auto left-0 right-0 text-gruvbox-gray">
             <a href="https://github.com/timkoval" target="_blank" class="text-xs">
                 "2024 timkoval"
             </a>
