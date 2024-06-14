@@ -4,4 +4,7 @@ Cargo.lock
 /dist
 /style/output.css
 
+.DS_Store
+.direnv/
+
 tailwindcss
