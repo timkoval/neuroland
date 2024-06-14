@@ -16,7 +16,7 @@ args = ["clean", "--config", "Release.toml"]
 
 [tasks.build-release]
 command = "trunk"
-args = ["build", "--config", "Release.toml", "--public-url", "/leptrun/"]
+args = ["build", "--config", "Release.toml", "--public-url", "/timkoval.github.io/"]
 
 [tasks.add-public-files]
 command = "sh"
