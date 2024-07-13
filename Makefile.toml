@@ -9,7 +9,7 @@ args = ["clean", "--cargo", "--dist", "release"]
 [tasks.run-dev]
 dependencies = ["clean-dist"]
 command = "trunk"
-args = ["serve", "--open"]
+args = ["serve", "--open", "--config", "Dev.toml"]
 
 [tasks.build-release]
 dependencies = ["clean-release"]
@@ -18,6 +18,8 @@ args = [
     "build",
     "--release",
     "--minify",
+    "--config",
+    "Release.toml",
     "--dist",
     "release",
     "--public-url",

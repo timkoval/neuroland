@@ -36,6 +36,9 @@
             rust-analyzer
             trunk
           ];
+          shellHook = ''
+            exec zsh
+          '';
         };
       });
     };
