@@ -41,8 +41,11 @@ fn Header() -> impl IntoView {
 fn Footer() -> impl IntoView {
     view! {
         <footer class="pb-0 m-auto left-0 right-0 text-gruvbox-gray">
-            <a href="https://github.com/timkoval" target="_blank" class="text-xs">
-                "2024 timkoval"
+            <a href="https://github.com/timkoval" target="_blank" rel="noopener noreferrer" class="text-xs">
+                "2024 timkoval "
+            </a>
+            <a href="mailto: timkoval00@gmail.com" class="text-xs text-blue-600 hover:text-blue-800">
+                " (click here to contact me by email)"
             </a>
         </footer>
     }
