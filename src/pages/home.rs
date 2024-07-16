@@ -1,8 +1,11 @@
 use leptos::*;
+use leptos_meta::*;
 
 #[component]
 pub fn Home() -> impl IntoView {
     view! {
+        <Title text="home"/>
+
         <div class="flex flex-col items-center justify-center">
             // Greeting
             <div class="flex flex-col md:space-y-8 space-y-6">

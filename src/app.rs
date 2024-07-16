@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos_meta::*;
 use leptos_router::*;
 
 use crate::pages::home::*;
@@ -6,7 +7,12 @@ use crate::pages::vault::*;
 
 #[component]
 pub fn App() -> impl IntoView {
+    provide_meta_context();
+    let title_formatter = |text| format!("{text} - timkoval.rs");
+
     view! {
+        <Title formatter=title_formatter/>
+
         <div class="font-fira-mono flex flex-col bg-gruvbox-bg min-h-screen text-base text-center text-gray-300">
             <div class="flex flex-1 flex-col items-center">
                 <Header/>
