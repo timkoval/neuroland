@@ -22,8 +22,8 @@ args = [
     "Release.toml",
     "--dist",
     "release",
-    "--public-url",
-    "/timkoval.github.io/",
+    # "--public-url",
+    # "/timkoval.github.io/",
 ]
 
 [tasks.cp-extra]
