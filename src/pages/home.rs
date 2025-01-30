@@ -21,7 +21,7 @@ pub fn Home() -> impl IntoView {
                 <div class="flex flex-col justify-start md:space-y-12 space-y-8 transition-colors duration-200">
                     <a
                         class="flex flex-row items-center md:space-x-8 space-x-6 text-gruvbox-fg3 md:hover:text-gruvbox-green active:text-gruvbox-green transition-colors duration-200"
-                        href="https://neurogarden.timkoval.rs/"
+                        href="https://neurodynamica.timkoval.rs/"
                     >
                         <svg viewBox="0 0 36 36" width="48" height="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet">
                         <path fill="#EA596E" d="M29.896 26.667c.003.283-.07.653-.146.958c-.531 2.145-2.889 4.552-6.208 4.333c-3.008-.198-5.458-1.642-5.458-3.667s2.444-3.667 5.458-3.667s6.335.018 6.354 2.043z">
